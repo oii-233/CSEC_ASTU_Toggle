@@ -1,0 +1,10 @@
+# Ignore VS Code history
+.history/
+
+# Ignore compiled Java files
+*.class
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
