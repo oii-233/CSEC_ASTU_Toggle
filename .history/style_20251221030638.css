@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a; /* Dark background */
+    transition: background-color 0.5s;
+}
+
+/* Default Icon Color (Off) */
+#bulbIcon {
+    color: #555;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+}
+
+/* When the "on" class is added to the body */
+body.on-mode {
+    background-color: #fffbe6; /* Light background */
+}
+
+body.on-mode #bulbIcon {
+    color: #f1c40f; /* Yellow bulb */
+    filter: drop-shadow(0 0 20px #f1c40f); /* Glowing effect */
+}
+
+body.on-mode #toggleText {
+    color: #333;
+}
