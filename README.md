@@ -2,7 +2,7 @@
 
 A simple **lamp toggle** project built with **HTML, CSS, and JavaScript**.
 
-Click the button to switch the lamp **ON/OFF**, changing the background and lamp glow.
+Click the button to switch the lamp **ON/OFF**, changing the background and lamp glow
 
 ---
 
